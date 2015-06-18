@@ -11,6 +11,10 @@
                         {
                             "xml": "<feature name=\"BarcodeScanner\"><param name=\"wp-package\" value=\"BarcodeScanner\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"wp-package\" value=\"InAppBrowser\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -21,6 +25,10 @@
                         {
                             "xml": "<Capability Name=\"ID_CAP_ISV_CAMERA\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<Capability Name=\"ID_CAP_NETWORKING\" />",
+                            "count": 2
                         }
                     ]
                 }
@@ -32,6 +40,9 @@
             "PACKAGE_NAME": "{ebd22bf0-14d4-11e5-aeab-a11da322b6b7}"
         },
         "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "{ebd22bf0-14d4-11e5-aeab-a11da322b6b7}"
+        },
+        "org.apache.cordova.inappbrowser": {
             "PACKAGE_NAME": "{ebd22bf0-14d4-11e5-aeab-a11da322b6b7}"
         }
     },

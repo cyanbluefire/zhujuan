@@ -238,4 +238,7 @@
             <HintPath>plugins\com.phonegap.plugins.barcodescanner\zxing.wp8.0.dll</HintPath>
         </Reference>
     </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Plugins\org.apache.cordova.inappbrowser\InAppBrowser.cs" />
+    </ItemGroup>
 </Project>

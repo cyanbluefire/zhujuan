@@ -49,6 +49,7 @@
 		9C22D17779CC4E5A9EC49765 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2010C124A1647B0997DA179 /* QuartzCore.framework */; };
 		8E417AB4881747949C71111A /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B91C6D020E4AEE9DD08FC0 /* CoreImage.framework */; };
 		27845FA4FD854F29AAFE3124 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D855F53FF60F4139A9D11C3F /* AudioToolbox.framework */; };
+		D0CDD87FC2CC46FFB5187D05 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC847AA30DE4663B2995938 /* CDVInAppBrowser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +126,8 @@
 		F2010C124A1647B0997DA179 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 		E0B91C6D020E4AEE9DD08FC0 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreImage.framework"; path = "System/Library/Frameworks/CoreImage.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 		D855F53FF60F4139A9D11C3F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		ACC847AA30DE4663B2995938 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVInAppBrowser.m"; path = "org.apache.cordova.inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		9F6F1CD5C302495E92CEF254 /* CDVInAppBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVInAppBrowser.h"; path = "org.apache.cordova.inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +243,8 @@
 				4971C4B661FD4B7385939121 /* CDVBarcodeScanner.mm */,
 				8FEB4C5CC15F4C61BD12616C /* zxing-all-in-one.cpp */,
 				7A026C1B8F56401C92EEC5FF /* zxing-all-in-one.h */,
+				ACC847AA30DE4663B2995938 /* CDVInAppBrowser.m */,
+				9F6F1CD5C302495E92CEF254 /* CDVInAppBrowser.h */,
 			);
 			name = Plugins;
 			path = "ZhuJuan/Plugins";
@@ -428,6 +433,7 @@
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				23A3EA1F9EE647C897EFADDD /* CDVBarcodeScanner.mm in Resources */,
 				E8D804E553904849B99663EC /* zxing-all-in-one.cpp in Resources */,
+				D0CDD87FC2CC46FFB5187D05 /* CDVInAppBrowser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
